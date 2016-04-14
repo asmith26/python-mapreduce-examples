@@ -1,6 +1,6 @@
 MapReduce code for a variety of tasks written in python (2.7).
 
-Following the MapReduce programming model, all the `mapper.py` files perform the **filtering and sorting**.
+Following the MapReduce programming model, all the `mapper.py` files perform the **filtering** (typically creating key/value pairs).
 All the `reducer.py` files peform the **summary operation**.
 
 # Examples TOC
