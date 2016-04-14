@@ -2,7 +2,6 @@
 
 """ 
 INPUT: File(s) containing words to count; these can also be passed to STDIN
-        Format of each line is: date\ttime\tstore name\titem description\tcost\tmethod of payment
 
 OUTPUT: E.g. (note the two occurrences of'the')
             the 1

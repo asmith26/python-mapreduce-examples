@@ -32,6 +32,7 @@ for line in fileinput.input():
 
     current_word, increment = data
 
+    # Refresh for new words
     if old_word and old_word != current_word:
         print old_word, "\t", count
         old_word = current_word

@@ -4,7 +4,7 @@ This computes the frequency of words in a text file(s).
 #Usage
 
 ```
-cat data/text_a.txt | ./mapper.py | sort | ./reducer.py
+> cat data/text_a.txt | ./mapper.py | sort | ./reducer.py
 brown   1
 dogs    1
 fox     1
