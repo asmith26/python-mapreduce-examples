@@ -4,10 +4,11 @@ Following the MapReduce programming model, all the `mapper.py` files perform the
 All the `reducer.py` files peform the **summary operation**.
 
 # Examples TOC
+The CAPTIALISED words indicate how the examples could be used in a more generalised setting:
 - **TALLY=word_frequencies**: Returns the frequency of words in a text file(s).
- - This could easily be extended for other tallying purposes.
 - **MAX=max_value_by_store**: Returns the cost of the item that is most expensive, for each location.
- - This could easily be extended for other 'max' identification purposes
+- **COUNT and SUM=count_and_sum**: Returns the total number of sales and the total sales value from all the stores.
+
 
 # Usage
 ## Bash
