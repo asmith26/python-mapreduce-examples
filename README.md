@@ -8,6 +8,7 @@ The CAPTIALISED words indicate how the examples could be used in a more generali
 - **TALLY=word_frequencies**: Returns the frequency of words in a text file(s).
 - **MAX=max_value_by_store**: Returns the cost of the item that is most expensive, for each location.
 - **COUNT and SUM=count_and_sum**: Returns the total number of sales and the total sales value from all the stores.
+- ToDo: Add more design patterns such as those discussed in lesson 4 (i.e. filltering patterns, summarisation patterns, structural patterns).
 
 
 # Usage
