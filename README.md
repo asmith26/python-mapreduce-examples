@@ -3,6 +3,12 @@ MapReduce code for a variety of tasks written in python (2.7).
 Following the MapReduce programming model, all the `mapper.py` files perform the **filtering and sorting**.
 All the `reducer.py` files peform the **summary operation**.
 
+# Examples TOC
+- **TALLY=word_frequencies**: Returns the frequency of words in a text file(s).
+ - This could easily be extended for other tallying purposes.
+- **MAX=max_value_by_store**: Returns the cost of the item that is most expensive, for each location.
+ - This could easily be extended for other 'max' identification purposes
+
 # Usage
 ## Bash
 A quick and useful way to test MapReduce jobs is via the command line using a smaller dataset.
@@ -37,9 +43,3 @@ alias hs=run_mapreduce
 ```
 
 and run with `hs mapper.py reducer.py INPUT_DIR OUTPUT_DIR`
-
-# Examples TOC
-- **TALLY=word_frequencies**: Returns the frequency of words in a text file(s).
- - This could easily be extended for other tallying purposes.
-- **MAX=max_value_by_store**: Returns the cost of the item that is most expensive, for each location.
- - This could easily be extended for other 'max' identification purposes.
